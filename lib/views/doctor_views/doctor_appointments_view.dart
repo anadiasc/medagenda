@@ -142,7 +142,7 @@ class _DoctorAppointmentsViewState extends State<DoctorAppointmentsView> {
                           ),
                       ],
                     ),
-                    trailing: Row(
+                    /*trailing: Row(
                       mainAxisSize: MainAxisSize.min,
                       children: [
                         // Badge de status da consulta
@@ -220,7 +220,7 @@ class _DoctorAppointmentsViewState extends State<DoctorAppointmentsView> {
                           ),
                         ],
                       ],
-                    ),
+                    ),*/
                   ),
                 );
               },

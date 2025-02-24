@@ -47,7 +47,7 @@ class _SplashViewState extends State<SplashView> with SingleTickerProviderStateM
     _controller.forward();
 
     // Após 3 segundos, navega para a tela inicial (HomeView)
-    Future.delayed(const Duration(seconds: 3), () {
+    Future.delayed(const Duration(seconds: 15), () {
       if (mounted) {
         Navigator.of(context).pushReplacement(
           PageRouteBuilder(

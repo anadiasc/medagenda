@@ -285,7 +285,7 @@ class _ScheduleAppointmentViewState extends State<ScheduleAppointmentView> {
                   onPressed: _scheduleAppointment,
                   child: const Text(
                     'Agendar Consulta',
-                    style: TextStyle(fontSize: 16),
+                    style: TextStyle(fontSize: 16, color: Color(0xFFFFFFFF)),
                   ),
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.blue,

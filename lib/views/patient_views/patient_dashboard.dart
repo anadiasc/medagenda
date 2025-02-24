@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart'; 
 import 'package:med_agenda/views/patient_views/patient_appointments_view.dart'; // Importa a tela de consultas do paciente
-import 'package:med_agenda/views/doctor_views/schedule_appointment_view.dart'; // Importa a tela para agendar uma consulta
+import 'package:med_agenda/views/patient_views/schedule_appointment_view.dart'; // Importa a tela para agendar uma consulta
 
 // Tela principal do paciente (Dashboard)
 class PatientDashboard extends StatefulWidget {

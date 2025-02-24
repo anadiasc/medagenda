@@ -14,7 +14,7 @@ class UserService with ChangeNotifier {
   Stream<List<UserModel>> getDoctors() {
     return _firestore
         .collection('users') // Acessa a coleção 'users' no Firestore
-        .where('role', isEqualTo: 'doctor') // Filtra usuários com role 'doctor'
+        .where('userType', isEqualTo: 'doctor') // Filtra usuários com role 'doctor'
         .snapshots() // Obtém um Stream de snapshots (atualizações em tempo real)
         .map((snapshot) => snapshot.docs
             .map((doc) => UserModel.fromMap({...doc.data(), 'id': doc.id}))
@@ -25,7 +25,7 @@ class UserService with ChangeNotifier {
   Stream<List<UserModel>> getPatients() {
     return _firestore
         .collection('users') // Acessa a coleção 'users' no Firestore
-        .where('role', isEqualTo: 'patient') // Filtra usuários com role 'patient'
+        .where('userType', isEqualTo: 'patient') // Filtra usuários com role 'patient'
         .snapshots() // Obtém um Stream de snapshots (atualizações em tempo real)
         .map((snapshot) => snapshot.docs
             .map((doc) => UserModel.fromMap({...doc.data(), 'id': doc.id}))

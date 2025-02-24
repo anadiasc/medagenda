@@ -75,6 +75,14 @@ lib/
 - fl_chart (Gráficos)
 - intl (Formatação de data/hora)
 
+
+
 ## Vídeo Explicativo
+[Link do vídeo: App MedAgenda](https://youtu.be/oka3xCezcm0)
 
 
+<p align="center">
+  <img src="assets/login.png" alt="Imagem 1" width="30%">
+  <img src="assets/dashboard.png" alt="Imagem 2" width="30%">
+  <img src="assets/agendamento.png" alt="Imagem 3" width="30%">
+</p>

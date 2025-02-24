@@ -87,7 +87,7 @@ class HomeView extends StatelessWidget {
                         Text(
                           'Bem-vindo, ${userModel.name}',
                           style: const TextStyle(
-                            fontSize: 22,
+                            fontSize: 15,
                             fontWeight: FontWeight.bold,
                             color: Colors.white,
                           ),
@@ -110,7 +110,7 @@ class HomeView extends StatelessWidget {
                       ],
                     ),
                   ),
-                  const SizedBox(height: 20),
+                  const SizedBox(height: 10),
                   // Conteúdo principal: exibe diferentes dashboards dependendo do tipo de usuário
                   Expanded(
                     child: Padding(
